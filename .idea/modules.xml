@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Hanniball_gamesnotebook.iml" filepath="$PROJECT_DIR$/.idea/Hanniball_gamesnotebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gamesnotebook.iml" filepath="$PROJECT_DIR$/.idea/gamesnotebook.iml" />
     </modules>
   </component>
 </project>
