@@ -111,7 +111,7 @@ public class GamesNotebook {
 
 		// Добавление вкладок - игр.
 //        addCoffeeTab(gamesFolder);
-
+        addMadRabbitTab(gamesFolder);
 		addKiHanniball(gamesFolder);
 		addKilkennyCats(gamesFolder);
 		addMingMangTab(gamesFolder);
@@ -154,6 +154,13 @@ public class GamesNotebook {
 		tabItem.setControl(new KilkennyCatsPanel(folder));
 		tabItem.setImage(smallIcon(GameImages.stoneBlue));
 		tabItem.setText("KilkennyCats");
+	}
+
+    private static void addMadRabbitTab(TabFolder folder) {
+        TabItem tabItem = new TabItem(folder, SWT.NONE);
+        tabItem.setControl(new MadRabbitGamePanel(folder));
+        tabItem.setImage(smallIcon(MadRabbitImages.wolfImage));
+        tabItem.setText("Бешеный кролик");
 	}
 
 	private static void addMingMangTab(TabFolder folder) {
